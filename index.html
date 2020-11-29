@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>YFILMS</title>
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-primary p-3">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><strong>YF</strong>ILMS •</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" class="nav-item nav-link px-3">Accueil</a>
+                    <a href="#page-aboutUs" class="nav-item nav-link px-3">Qui somme-nous ?</a>
+                    <a href="help.html" class="nav-item nav-link px-3">Documentation</a>
+                    <a href="#page-searchForMovies" class="nav-item nav-link px-3">Nos films</a>
+                    <a href="#page-contact" class="nav-item nav-link px-3">Contact</a>
+                    <a href="#page-activation" class="btn btn-success px-3">Activation</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="bd-mastehead bg-primary-var p-5">
+        <div class="container text-white pt-5 pb-5">
+            <h1 class="font-weight-bold mb-3">YFilmsTV</h1>
+            <p class="lead mb-2">Regardez vos films préférés sur votre Smart TV depuis l'application Youtube.</p>
+            <p class="mb-5">Activez YFILMS sur votre Smart TV sans plus attendre !</p>
+            <div class="d-flex flex-column flex-md-row">
+                <a href="#page-activation" class="btn btn-lg btn-success mb-3 mr-md-3">Activation</a>
+                <a href="help.html" class="btn btn-outline-light btn-lg mb-3">Démarrer</a>
+            </div>
+            <p class="text-white-50 mb-0"><span title="Version de la base de données YFS."><span >v0.1</span></span></p>
+        </div>
+    </div>
+
+    <!-- About Us -->
+    <div class="aboutUs bg-light pt-5 pb-5" id="page-aboutUs">
+        <div class="container">
+            <div class="pt-5 text-center"><h2>Qui sommes-nous ?</h2></div>            
+                <div class="row py-5">
+                    <div class="col-3">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link border-right active" id="v-pills-home-tab" data-toggle="pill" href="#when" role="tab" aria-controls="v-when" aria-selected="true">Depuis quand ?</a>
+                            <a class="nav-link border-right" id="v-pills-profile-tab" data-toggle="pill" href="#why" role="tab" aria-controls="v-why" aria-selected="false">Pourquoi ?</a>
+                            <a class="nav-link border-right" id="v-pills-messages-tab" data-toggle="pill" href="#services" role="tab" aria-controls="v-services" aria-selected="false">Nos services</a>
+                            <a class="nav-link border-right" id="v-pills-settings-tab" data-toggle="pill" href="#mission" role="tab" aria-controls="v-mission" aria-selected="false">Notre mission</a>
+                            <a class="nav-link border-right" id="v-pills-settings-tab" data-toggle="pill" href="#abst" role="tab" aria-controls="v-abst" aria-selected="false">En résumé</a>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="tab-content ml-4" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="when" role="tabpanel" aria-labelledby="v-when">
+                                Depuis longtemps nous avons l'idée de concevoir une plateforme comme YF! Mais, c'est le <i>21 Mars 2020</i> que notre histoire commence.
+                            </div>
+                            <div class="tab-pane fade" id="why" role="tabpanel" aria-labelledby="v-why">
+                                A force de télécharger des films Blu-Ray / 4K, il arrive un moment ou nous n'avons plus d'espaces disponibles pour les stockers.
+                                C'est le 21 Mars, que l'idée d'upload notre premier film sur Youtube nous vient à l'esprit. Il y avait plusieurs avantages à utiliser Youtube !         
+                                Tout d'abord, on pouvait l'utiliser directement sur une Smart TV grâce à l'application, et ce, partout dans le monde. Le deuxième avantage est que l'on ne disposait d'aucune limite de stockage. Merci Youtube.                   
+                                C'était parfait, on pouvait regarder des films Blu-ray / 4K partout dans le monde depuis notre Smart TV, sans devoir les stockers. Cependant, il y avait un petit problème à tout ça...                   
+                                C'est interdit de publier publiquement des films sur la plateforme. Notre solution à été de publier nos films en privé sur notre compte et de le partager avec nos utilisateurs.
+                            </div>
+                            <div class="tab-pane fade" id="services" role="tabpanel" aria-labelledby="v-services">
+                                Sur YFilms nous proposons uniquement des films, récents, mais pas que. Nous faisons également notre maximum pour vous proposer la meilleure qualité de visionnage possible.
+                            </div>
+                            <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="v-mission">
+                                Garder la plateforme active le plus longtemps possible, être à l'écoute, restez à jour et subvenir aux besoins de nos utilisateurs.
+                            </div>
+                            <div class="tab-pane fade" id="abst" role="tabpanel" aria-labelledby="v-abst">
+                                Nous sommes un service de streaming privé sur Youtube, qui propose du contenu de qualité 24h/24.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search for movies -->
+    <div class="searchForMovies bg-primary pb-5 pt-5" id="page-searchForMovies">
+        <div class="container">
+            <div class="pt-5 text-center text-white">
+                <h2>Tous nos films</h2>
+            </div>
+            <p class="text-white text-center m-4">Obtenez toutes les informations sur un film YF.</p>
+            <div class="input-group text-center">
+                <span class="input-group-append">
+                    <div class="input-group-text">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                        </svg>
+                    </div>
+                </span>
+                <input type="text" id="searchInput" class="form-control" aria-label="Text input with checkbox" maxlength="100" placeholder="Rechercher un film...">        
+            </div>
+            <!-- display "no result form" js -->        
+            <div id="noResult">
+                <p class="alert alert-danger mt-2 Small">Aucun résultat trouvé.</p>
+                <form class="was-validated m-2" id="request_form">
+                    <h3 class="text-white text-center mt-5">Vous ne trouvez pas votre film ? &#9785</h3>
+                    <p class="text-center text-white mb-2">Demandez à l'ajouter sur YF en remplissant le formulaire ci-dessous.</p>
+                    <div class="col-md-4 mb-2 mx-auto text-white">
+                        <label class="mt-2">* Votre adresse e-mail</label>
+                        <input type="email" class="form-control" name="request_email" id="request_email" maxlength="50" placeholder="name@example.com" required>
+                        <label class="mt-2">* Votre recommandation</label>
+                        <input type="text" class="form-control mb-4" name="request_movie" id="request_movie" maxlength="55" placeholder="titre du film à ajouter" required>
+                        <div class="g-recaptcha" data-sitekey="6Lev2ugZAAAAAJaMl45oR4IdsllfoBMqQw-w8TVs"></div>
+                        <div class="col text-center">
+                            <button type="submit" id="submit_request" class="btn btn-primary mt-4">Envoyer</button>
+                        </div>
+                        <p class="alert alert-info mt-4">
+                            Si votre recommandation est approuvée et acceptée par le système, le film en question sera automatiquement publié sur la plateforme. 
+                            Sinon, vous receverez un e-mail contenant des explications sur les causes du refus.
+                        </p>
+                    </div>
+                </form>
+            </div>   
+            <!-- draw search result from db (js) -->
+            <div class="row row-cols-1 row-cols-md-4 py-4" id="suggestions"></div>             
+
+        </div>
+    </div>
+
+    <!--  Activation -->
+    <div class="activation bg-light" id="page-activation">
+        <div class="container">
+            <div class="card-body col-sm-6 pt-5 pb-5 mx-auto">
+                <h2 class="text-center pt-5 pb-3">Activation &#10004</h2>
+                <p class="text-center">Commencez à regarder des films sur YFilms dès aujourd'hui.</p>
+                <form class="was-validated" id="activation_form">
+                    <p class="alert alert-info mt-4 mb-5 border">
+                        Une activation est nécessaire pour pouvoir profiter de notre service sur votre téléviseur. Remplissez le formulaire ci-dessous pour passer à l'étape suivante de l'activation.
+                    </p> 
+                    <div class="form-group">
+                        <p class="m-2">* Nom et prénom</p>
+                        <input type="text" name="name_activation" id="name_activation" class="form-control" maxlength="55" placeholder="Nom et prénom" required>
+                    </div>
+                    <div class="form-group">
+                        <p class="m-2">* Téléphone</p>
+                        <input type="tel" name="tel_activation" id="tel_activation" minlength="10" class="form-control" placeholder="ex : 0498123456" required>
+                    </div>
+                    <div class="form-group">
+                        <p class="m-2">* E-mail</p>
+                        <input type="email" name="email_activation" id="email_activation" class="form-control" maxlength="50" placeholder="E-mail" required>
+                    </div>
+                    <div class="form-group form-check pt-2">
+                        <input type="checkbox" class="form-check-input" id="check_activation" required>
+                        <label class="form-check-label text-body" for="check_activation">Oui, j'ai lu et j'accepte les <a href="cgu.html"><u>Termes &amp; Conditions.</u></a></label>
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LfAVfIZAAAAAN1vNvzFeRjwKWjeWuNHLtYkBris"></div>
+                    <div class="text-center">
+                        <button class="btn btn-primary col-4 mb-5 mt-3 Small shadow" type="submit" id="submit_activation">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--  Contact Form -->
+    <div class="contactUs bg-primary-var" id="page-contact">
+        <div class="container">                                          
+            <div class="card-body text-white col-sm-5 pt-5 pb-5 mx-auto">
+                <h2 class="text-center pt-5">Contactez-nous &#9997</h2>
+                <form class="was-validated pt-4 pb-5" id="contact_form">
+                    <p class="alert alert-info mt-4 border">
+                        Merci de nous laisser votre message, nous vous répondrons dans les plus brefs délais.
+                    </p> 
+                    <div class="form-group">
+                        <p class="m-2">* Nom</p>
+                        <input type="text" name="lastName_contact" id="lastName_contact" class="form-control" maxlength="55" placeholder="Nom" required>
+                    </div>
+                    <div class="form-group">
+                        <p class="m-2">* Prénom</p>
+                        <input type="text" name="name_contact" id="name_contact" class="form-control" maxlength="55" placeholder="Prénom" required>
+                    </div>
+                    <div class="form-group">
+                        <p class="m-2">* E-mail</p>
+                        <input type="email" name="email_contact" id="email_contact" class="form-control" maxlength="50" placeholder="E-mail" required>
+                    </div>
+                    <p class="m-2">* Objet du message</p>
+                        <select class="custom-select is-invalid col-md-6" name="objet_contact" required>
+                            <option value="" selected>---</option>
+                            <option value="info" id="info">Information</option>
+                            <option value="troubleshooting" id="troubleshooting">Signaler un bug</option>
+                            <option value="advice" id="advice">Avis</option>
+                            <option value="uninstall" id="remove">Désinstallation</option>
+                            <option value="technical" id="technical">Technique</option>
+                        </select>
+                    <div class="form-group">
+                        <p class="m-2">* Message</p>
+                        <textarea name="message_contact" id="message_contact" class="form-control" minlength="30" maxlength="700" rows="3" placeholder="Votre message..." required></textarea>
+                        <p class="text-white-50">Minimum 30 caractères.</p>
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LfAVfIZAAAAAN1vNvzFeRjwKWjeWuNHLtYkBris"></div>
+                    <div class="text-center">
+                        <button class="btn btn-primary col-4 mt-3 Small shadow" type="submit_contact">Envoyer</button>
+                    </div>
+                </form>                 
+            </div>                   
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer bg-primary">
+        <div class="container">
+            <!-- Copyright -->
+            <ul class="nav pt-3 pb-3 mx-auto">
+                <li class="nav-item">
+                    <p class="nav-link text-white-50">&#169; 2020, YFILMS. Tous droits réservés.</p>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="cgu.html">Conditions d'utilisation et Politique de confidentialité</a>
+                </li>
+                <li class="footer-nav">
+                    <a class="nav-item nav-link text-white" href="help.html#page-man-faq">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="help.html">Aide</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="index.html">Aller en haut</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- G JS -->
+    <script src="./assets/js/search.js"></script>
+    <script src="./assets/js/data.json"></script>
+
+    <!-- JS for Request form-->
+    <script src="./assets/js/send_mail.js"></script>
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">emailjs.init('user_MBXX8qcH0aYwhQKY6y35W')</script>
+
+    <!-- Boostrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>
+</html>
