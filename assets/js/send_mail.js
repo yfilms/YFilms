@@ -34,7 +34,7 @@ document.getElementById('request_form')
   .addEventListener('submit', function(event) {
     event.preventDefault();
   
-    const serviceID = 'service_exj2yuq';
+    const serviceID = 'service_w36n8hq';
     const templateID = 'template_request';
   
     emailjs.sendForm(serviceID, templateID, this)
