@@ -2,7 +2,7 @@ document.getElementById('activation_form')
   .addEventListener('submit', function(event) {
   event.preventDefault();
 
-  const serviceID = 'service_exj2yuq';
+  const serviceID = 'service_91eg5c8';
   const templateID = 'template_activate';
 
   emailjs.sendForm(serviceID, templateID, this)
@@ -18,7 +18,7 @@ document.getElementById('contact_form')
   .addEventListener('submit', function(event) {
     event.preventDefault();
   
-    const serviceID = 'service_exj2yuq';
+    const serviceID = 'service_91eg5c8';
     const templateID = 'template_contact';
   
     emailjs.sendForm(serviceID, templateID, this)
